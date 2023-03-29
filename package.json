@@ -1,9 +1,9 @@
 {
-	"name": "gulp-changed",
+	"name": "@bubblegroup/gulp-changed",
 	"version": "4.0.3",
 	"description": "Only pass through changed files",
 	"license": "MIT",
-	"repository": "sindresorhus/gulp-changed",
+	"repository": "bubblegroup/gulp-changed",
 	"author": {
 		"name": "Sindre Sorhus",
 		"email": "sindresorhus@gmail.com",
@@ -42,20 +42,20 @@
 		"touch": "^3.1.0"
 	},
 	"devDependencies": {
-		"ava": "^2.3.0",
+		"@bubblegroup/gulp": "^4.0.4",
+		"ava": "^5.2.0",
 		"chalk": "^2.3.0",
 		"del": "^5.0.0",
 		"figures": "^3.0.0",
 		"get-stream": "^5.1.0",
-		"gulp": "^4.0.2",
 		"vinyl": "^2.1.0",
-		"xo": "^0.24.0"
+		"xo": "^0.53.1"
 	},
 	"peerDependencies": {
-		"gulp": ">=4"
+		"@bubblegroup/gulp": ">=4"
 	},
 	"peerDependenciesMeta": {
-		"gulp": {
+		"@bubblegroup/gulp": {
 			"optional": true
 		}
 	}

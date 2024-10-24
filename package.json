@@ -49,7 +49,7 @@
 		"figures": "^3.0.0",
 		"get-stream": "^5.1.0",
 		"vinyl": "^2.1.0",
-		"xo": "^0.53.1"
+		"xo": "^0.54.2"
 	},
 	"peerDependencies": {
 		"@bubblegroup/gulp": ">=4"
